@@ -1,0 +1,130 @@
+body {
+    margin: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+    background-color:  #ff9669;
+}
+
+.logo {
+    flex: 2.5;
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #377d5e;
+
+}
+.link-container {
+    flex:1;
+    text-align: center;
+    display: flex;
+
+}
+
+.nav ul {
+
+    margin-right: 2rem;
+}
+
+.link-item {
+    padding: 0 1rem;
+    font-size: large;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link-item:hover {
+    color: rgb(176, 19, 19);
+    background-color: rgb(179, 255, 194);
+    border-radius: 15px;
+}
+
+.header{
+    padding: 2rem 10rem 2rem;
+    display:flex;
+    background-color: #f6b092;
+    justify-content: space-between;
+}
+
+.header-content{
+    flex:1;
+    padding: 1rem 5rem;
+    color: rgb(22, 22, 24);
+    font-size: large;
+}
+
+.header-content h2{
+
+    color: rgb(0, 110, 92);
+    font-size: 2rem;
+    margin: 2rem auto 0.5rem;
+}
+
+.header-content p{
+    font-size: 1.25rem;
+    margin: 0 auto 1rem;
+    padding-right: 12rem;
+}
+
+.header-img{
+    flex:1;
+    padding: 1rem 1rem 1rem 0rem;
+}
+.header-img img{
+    border-radius: 30px;
+
+}
+.header-content button{
+    font-size: medium;
+    color: white;
+    padding: 0.5rem 2.5rem;
+    background-color: rgb(84, 130, 248);
+    border-radius: 25px;
+    border: 0px;
+}
+
+.header-content button:hover{
+    background-color: rgb(40, 40, 66);
+}
+
+.header-content button:active{
+    background-color: rgb(14, 14, 18);
+}
+
+.second {
+    background-color: rgb(179, 255, 194);
+}
+
+.second-head {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center; 
+    padding: 2rem 0rem 0rem;
+    color: rgb(112, 142, 233);
+}
+.info-container{
+    padding: 2rem 20rem;
+    display: flex;
+    justify-content: space-between;
+    gap:3em;
+}
+
+.info-item {
+    flex:1;
+    color: rgb(22, 22, 24);
+    font-size: large;
+    text-align: center;
+}
+.info-item img{
+    border-radius: 30px;
+    padding: 1rem;
+}
