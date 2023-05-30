@@ -56,12 +56,17 @@ a {
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 300;
+
+}
+
+.link-item a{
+    transition: color 0.2s, font-size 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 .link-item a:hover {
-    color: #4AD96D  ;
-    border-radius: 5px;
-    font-weight: 700;
+    color: #4AD96D ;
+    font-size: 1.3rem;
 }
 
 .header{
@@ -107,12 +112,19 @@ a {
     border-radius: 25px;
     border: 5px solid #E1D7FE;
     font-weight: 600;
+    transition: background-color 0.2s, color 0.2s, border 0.2s,box-shadow 0.2s;
+    transition-timing-function: ease-in-out;
 
 }
 
 .header-content button:hover{
     background-color: #9857F2;
     color: #3DF26A;
+    border: 5px solid #3DF26A;
+    -webkit-box-shadow:0px 0px 100px 10px rgba(61,242,106,0.9);
+    -moz-box-shadow: 0px 0px 100px 10px rgba(61,242,106,0.9);
+    box-shadow: 0px 0px 100px 10px rgba(61,242,106,0.9);
+
 }
 
 .header-content button:active{
@@ -144,15 +156,19 @@ a {
     flex:1;
     color: #ac79f5;
     font-size: large;
-    text-align:justify;
+    text-align:center;
     border-radius: 10px;
     padding: 2rem 2rem;
+    transition: background-color 0.2s, flex 0.3s;
+    transition-timing-function: ease-in-out;
 
 }
 .info-item:hover{
     background-color: rgb(58, 249, 134);
+    flex:1.5;
 }
 .info-item img{
+    margin: 0 -1rem;
     border-radius: 30px;
     padding: 1rem;
 }
@@ -209,12 +225,18 @@ a {
     font-size:1.5rem;
     border: 5px solid #E1D7FE;
     color: #E1D7FE;
+    transition: background-color 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
+    transition-timing-function: ease-in-out;
+
 }
 
 .cta span:hover {
     background-color: #E1D7FE;
     border: 5px solid #9857F2;
     color:#9857F2;
+    -webkit-box-shadow:0px 0px 80px 5px #9857F2;
+    -moz-box-shadow: 0px 0px 80px 5px  #9857F2;
+    box-shadow: 0px 0px 80px 5px  #9857F2;
 }
 
 .footer{
@@ -226,4 +248,16 @@ a {
     color:#E1D7FE;
     padding: 1.5rem;
     margin: 0;
+}
+
+.kan {
+    transition: font-size 0.2s, color 0.2s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.kan:hover {
+    color: #e2dafb;
+    font-size: 1.51rem;
+
 }
